@@ -24,7 +24,23 @@
     'phone_conversion_number': '+91-9211461774'
   });
 </script>
-
+<!-- Event snippet for mobile-website-phone-call conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17057531168/n5k8CKKO3sUaEKCK1cU_',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+  
 
 
     <meta charset="UTF-8" />
