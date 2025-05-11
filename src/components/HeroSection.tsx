@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
                 Your <span className="text-saffron">Trusted Partner</span> for Global Dreams
               </h1>
               <p className="text-lg md:text-xl mb-6 text-gray-100">
-                Helping Indians work, study, and settle abroad with professional document processing services since 1999.
+                Helping Indians work, study, and settle abroad with professional document attestation, apostille, legalization & visa stamping services since 1999.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="bg-white bg-opacity-10 backdrop-blur-sm px-4 py-3 rounded-lg border border-white border-opacity-20">
